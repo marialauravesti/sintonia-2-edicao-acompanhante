@@ -20,5 +20,6 @@ Abra `http://localhost:5500`.
 
 ## Publicar
 
-Publicar os arquivos estáticos (`index.html` + `assets/`) no host escolhido.
+No ar em https://bi.vesti.com.br/sintonia/acompanhante/ (servidor da Vesti).
+Passo a passo de atualização em [`COMO-ATUALIZAR.md`](COMO-ATUALIZAR.md).
 Não há configuração de backend/CORS.
