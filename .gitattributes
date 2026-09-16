@@ -1,0 +1,12 @@
+# Normaliza fim de linha: texto sempre LF no repositório, evitando
+# conflitos de LF/CRLF no deploy (git pull no servidor).
+* text=auto eol=lf
+
+# Binários: nunca aplicar conversão de line-ending.
+*.png binary
+*.ico binary
+*.jpg binary
+*.jpeg binary
+*.webp binary
+*.woff binary
+*.woff2 binary

@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Sintonia, 2ª Edição — Convite</title>
+<link rel="icon" href="assets/img/favicon.ico" sizes="any">
+<link rel="icon" type="image/png" sizes="32x32" href="assets/img/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="assets/img/favicon-16x16.png">
+<link rel="apple-touch-icon" sizes="180x180" href="assets/img/apple-touch-icon.png">
+<link rel="manifest" href="assets/img/site.webmanifest">
+<meta name="theme-color" content="#00DD9B">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&family=Playfair+Display:ital,wght@0,600;1,500;1,600;1,700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="assets/css/style.css?v=2">
+</head>
+<body>
+
+<section class="hero" id="hero">
+  <canvas class="hero-raios" data-light-rays aria-hidden="true"></canvas>
+  <div class="wrap hero-inner">
+    <img class="logo" src="assets/img/logo.png" alt="Sintonia, 2ª edição, Criação e Venda" width="275" height="109">
+    <p class="hero-subtitulo">
+      <span class="sr-only">O fim da guerra entre</span>
+      <span class="rot-linha" aria-hidden="true">
+        <span class="rot-fixo">O fim d</span><span class="rot-slot" data-palavras-rotativas></span><span class="rot-fixo rot-fim">entre</span>
+      </span>
+    </p>
+    <h1>Criação <span class="amp">&amp;</span> Vendas</h1>
+
+    <div class="hero-detalhes">
+      <div class="item"><div class="lbl">Data</div><div class="val">24 de setembro</div></div>
+      <div class="item"><div class="lbl">Horário</div><div class="val">18h30</div></div>
+      <a href="#local" class="item"><div class="lbl">Local</div><div class="val">Bom Retiro, SP</div></a>
+      <a href="#programacao" class="item"><div class="lbl">Formato</div><div class="val">Jantar + conteúdo</div></a>
+    </div>
+
+    <div class="hero-cta">
+      <a href="#programacao" class="btn btn-claro">Ver programação</a>
+      <a href="#programacao" class="hero-scroll" aria-label="Ver programação" tabindex="-1">
+        <svg viewBox="0 0 24 24" width="26" height="26" aria-hidden="true" focusable="false">
+          <path d="M6 9l6 6 6-6" fill="none" stroke="currentColor" stroke-width="1.6"
+                stroke-linecap="round" stroke-linejoin="round"/>
+        </svg>
+      </a>
+    </div>
+  </div>
+</section>
+
+<section class="confirmar-banner" id="confirmar-banner">
+  <div class="confirmar-conteudo wrap">
+    <p class="confirmar-texto">Você foi convidado(a) como acompanhante. Falta pouco para nos vermos.</p>
+    <div class="confirmar-relogio">
+      <h2 class="confirmar-chamada">Faltam apenas</h2>
+      <div class="countdown" id="countdown" role="timer" aria-live="off" aria-label="Contagem regressiva até o evento">
+        <div class="unidade">
+          <div class="cartao"><div class="digitos" id="cd-dias"></div></div>
+          <div class="lbl">Dias</div>
+        </div>
+        <div class="unidade">
+          <div class="cartao"><div class="digitos" id="cd-horas"></div></div>
+          <div class="lbl">Horas</div>
+        </div>
+        <div class="unidade">
+          <div class="cartao"><div class="digitos" id="cd-min"></div></div>
+          <div class="lbl">Minutos</div>
+        </div>
+        <div class="unidade">
+          <div class="cartao"><div class="digitos" id="cd-seg"></div></div>
+          <div class="lbl">Segundos</div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="programacao" id="programacao">
+  <div class="wrap">
+    <div class="rotulo">Programação</div>
+    <h2>Uma noite, duas linguagens.</h2>
+    <div class="timeline">
+      <div class="timeline-item">
+        <div class="idx">01</div>
+        <div class="hora">18h30</div>
+        <div class="conteudo">
+          <h3>Chegada e boas-vindas</h3>
+          <p>Recepção no endereço do evento, no Bom Retiro.</p>
+        </div>
+      </div>
+      <div class="timeline-item">
+        <div class="idx">02</div>
+        <div class="hora">Em seguida</div>
+        <div class="conteudo">
+          <h3>Coquetel</h3>
+          <p>Uma noite com menu coquetel à vontade para criar conexões que uma agenda corrida não permite.</p>
+        </div>
+      </div>
+      <div class="timeline-item">
+        <div class="idx">03</div>
+        <div class="hora">Simultaneamente</div>
+        <div class="conteudo">
+          <h3>Sintonia: Criação e Vendas</h3>
+          <p>Quando Criação e Vendas falam a mesma língua, a coleção vende melhor.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="local" id="local">
+  <div class="wrap">
+    <div class="local-grid">
+      <div>
+        <div class="rotulo">Local</div>
+        <h2>Onde vai acontecer</h2>
+        <div class="endereco">R. dos Bandeirantes, 176</div>
+        <p class="obs">Bom Retiro, São Paulo. Há estacionamento disponível nas ruas próximas. Recomendamos chegar com alguns minutos de antecedência.</p>
+        <a href="https://www.google.com/maps/search/?api=1&query=R.+dos+Bandeirantes,+176,+Bom+Retiro,+São+Paulo" target="_blank" rel="noopener" class="btn btn-secundario">Abrir no mapa</a>
+      </div>
+      <div class="mapa-box">
+        <iframe
+          src="https://www.google.com/maps?q=R.+dos+Bandeirantes,+176,+Bom+Retiro,+São+Paulo&output=embed"
+          title="Mapa — R. dos Bandeirantes, 176, Bom Retiro, São Paulo"
+          loading="lazy"
+          referrerpolicy="no-referrer-when-downgrade"
+          allowfullscreen></iframe>
+        <a class="mapa-cta" href="https://www.google.com/maps/search/?api=1&query=R.+dos+Bandeirantes,+176,+Bom+Retiro,+São+Paulo" target="_blank" rel="noopener">Abrir no Google Maps ↗</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<footer>
+  <div class="marca">Sintonia, Criação &amp; Venda</div>
+  <div class="fechamento">Te esperamos!</div>
+  <div class="linha linha-whats">Para confirmar ou recusar, é só responder pela mensagem do WhatsApp.</div>
+  <div class="linha">Uma iniciativa Vesti, 2ª edição</div>
+</footer>
+
+
+<script src="assets/js/light-rays.js?v=2"></script>
+<script src="assets/js/palavras-rotativas.js?v=2"></script>
+<script src="assets/js/ripple.js?v=2"></script>
+<script src="assets/js/countdown.js?v=2"></script>
+
+</body>
+</html>
